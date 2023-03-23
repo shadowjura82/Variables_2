@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -16,7 +17,7 @@ public class Main {
         System.out.println("Значение переменной intVariable с типом int равно " + intVariable);
         System.out.println("Значение переменной longVariable с типом long равно " + longVariable);
         System.out.println("Значение переменной floatVariable с типом float равно " + floatVariable);
-        System.out.println("Значение переменной doubleVariable с типом double равно " + doubleVariable);
+        System.out.println("Значение переменной doubleVariable с типом double равно " + doubleVariable + "\n");
     }
 
     public static void task2() {
@@ -27,6 +28,14 @@ public class Main {
         short sVar2 = -159;
         int iVar = 27897;
         byte bVar = 67;
+    }
+
+    public static void task3() {
+        byte classLP = 23;
+        byte classAS = 27;
+        byte classEA = 30;
+        byte summ = (byte) (480 / (classEA + classAS + classLP));
+        System.out.println("На каждого ученика рассчитано " + summ + " листов бумаги\n");
     }
 }
 
