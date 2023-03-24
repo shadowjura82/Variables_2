@@ -73,11 +73,17 @@ public class Main {
         short egsWeight = (short) (egs * 105);
         int totalGramm = (int) (bananasWeight + milkWeight + iceCreamWeight + egsWeight);
         float totalKg = totalGramm / 1000;
-        System.out.println("Суммарная масса завтрака " + totalGramm + " грамм,или " + totalKg + " килограмм");
+        System.out.println("Суммарная масса завтрака " + totalGramm + " грамм,или " + totalKg + " килограмм\n");
     }
 
-    public static void task7(){
-
+    public static void task7() {
+        short targetWeight = 7000;
+        short weightLoss = 250;
+        short totalDays = (short) (targetWeight / weightLoss);
+        System.out.println("Чтоб похудеть на 7 кг теряя 250 грамм в день, спортсмену потребуется " + totalDays + " дней");
+        weightLoss = 500;
+        totalDays = (short) (targetWeight / weightLoss);
+        System.out.println("Чтоб похудеть на 7 кг теряя 500 грамм в день, спортсмену потребуется " + totalDays + " дней\n");
     }
 }
 
