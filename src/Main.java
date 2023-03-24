@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -84,6 +85,30 @@ public class Main {
         weightLoss = 500;
         totalDays = (short) (targetWeight / weightLoss);
         System.out.println("Чтоб похудеть на 7 кг теряя 500 грамм в день, спортсмену потребуется " + totalDays + " дней\n");
+    }
+
+    public static void task8() {
+        float currentSalary = 0f;
+        float targetSalary = 0.0f;
+        float salaryDiff = 0;
+
+        //Рассчеты для Маши
+        currentSalary = 67760f;
+        targetSalary = (float) (currentSalary * 1.1);
+        salaryDiff = (targetSalary * 12) - (currentSalary * 12);
+        System.out.println("Маша теперь получает " + targetSalary + " рублей. Годовой доход вырос на " + salaryDiff + " рублей");
+
+        //Рассчеты для Дениса
+        currentSalary = 83690f;
+        targetSalary = (float) (currentSalary * 1.1);
+        salaryDiff = (targetSalary * 12) - (currentSalary * 12);
+        System.out.println("Денис теперь получает " + targetSalary + " рублей. Годовой доход вырос на " + salaryDiff + " рублей");
+
+        //Рассчеты для Кристины
+        currentSalary = 76230f;
+        targetSalary = (float) (currentSalary * 1.1);
+        salaryDiff = (targetSalary * 12) - (currentSalary * 12);
+        System.out.println("Кристина теперь получает " + targetSalary + " рублей. Годовой доход вырос на " + salaryDiff + " рублей");
     }
 }
 
