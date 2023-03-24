@@ -72,7 +72,7 @@ public class Main {
         short milkWeight = (short) (milk * 105);
         short iceCreamWeight = (short) (iceCream * 105);
         short egsWeight = (short) (egs * 105);
-        int totalGramm = (int) (bananasWeight + milkWeight + iceCreamWeight + egsWeight);
+        float totalGramm = (float) (bananasWeight + milkWeight + iceCreamWeight + egsWeight);
         float totalKg = totalGramm / 1000;
         System.out.println("Суммарная масса завтрака " + totalGramm + " грамм,или " + totalKg + " килограмм\n");
     }
