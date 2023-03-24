@@ -4,6 +4,9 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+        task6();
+        task7();
     }
 
     public static void task1() {
@@ -48,7 +51,33 @@ public class Main {
         System.out.println("За 20 минут машина произвела " + bottlesPer20 + " штук бутылок");
         System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + bottlesPer3Days + " штук бутылок");
-        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок");
+        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок\n");
+    }
+
+    public static void task5() {
+        byte total = 120;
+        byte classCount = 120 / 6;
+        byte white = (byte) (classCount * 2);
+        byte brown = (byte) (classCount * 4);
+        System.out.println("В школе, где " + classCount + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски\n");
+    }
+
+    public static void task6() {
+        byte bananas = 5;
+        byte milk = 2;
+        byte iceCream = 2;
+        byte egs = 2;
+        short bananasWeight = (short) (bananas * 80);
+        short milkWeight = (short) (milk * 105);
+        short iceCreamWeight = (short) (iceCream * 105);
+        short egsWeight = (short) (egs * 105);
+        int totalGramm = (int) (bananasWeight + milkWeight + iceCreamWeight + egsWeight);
+        float totalKg = totalGramm / 1000;
+        System.out.println("Суммарная масса завтрака " + totalGramm + " грамм,или " + totalKg + " килограмм");
+    }
+
+    public static void task7(){
+
     }
 }
 
