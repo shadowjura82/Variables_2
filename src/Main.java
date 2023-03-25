@@ -28,7 +28,7 @@ public class Main {
     public static void task2() {
         float fVar = 27.12f;
         long lVar = 987678965549L;
-        float fVar2 = 2.786f;
+        double dVar2 = 2.786;
         short sVar = 569;
         short sVar2 = -159;
         int iVar = 27897;
